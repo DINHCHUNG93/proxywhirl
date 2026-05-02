@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-02T09:52:42.949534+00:00",
+  "generated_at": "2026-05-02T12:38:47.014315+00:00",
   "total_sources": 108,
   "counts": {
-    "http": 8524,
-    "https": 331,
-    "socks4": 173,
-    "socks5": 2592
+    "http": 8786,
+    "https": 332,
+    "socks4": 185,
+    "socks5": 2790
   }
 }
