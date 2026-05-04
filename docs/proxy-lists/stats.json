@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-05-04T01:15:01.433341+00:00",
+  "generated_at": "2026-05-04T07:23:45.471391+00:00",
   "sources": {
     "total": 108
   },
   "proxies": {
-    "total": 22245,
-    "unique": 22245,
+    "total": 22174,
+    "unique": 22174,
     "by_protocol": {
-      "http": 16312,
-      "https": 416,
-      "socks4": 277,
-      "socks5": 5503
+      "http": 16180,
+      "https": 396,
+      "socks4": 304,
+      "socks5": 5557
     }
   },
   "file_sizes": {
-    "http.txt": 283188,
-    "https.txt": 8092,
-    "socks4.txt": 5291,
-    "socks5.txt": 117407,
-    "all.txt": 414074,
-    "proxies.json": 616864
+    "http.txt": 280902,
+    "https.txt": 7697,
+    "socks4.txt": 5815,
+    "socks5.txt": 118498,
+    "all.txt": 413008,
+    "proxies.json": 615159
   },
   "health": {
-    "healthy": 22245,
+    "healthy": 22174,
     "unhealthy": 0,
     "dead": 0,
     "unknown": 0
   },
   "performance": {
-    "avg_response_ms": 11668.6,
-    "median_response_ms": 12072.2,
-    "p95_response_ms": 16253.8,
+    "avg_response_ms": 11671.3,
+    "median_response_ms": 12097.4,
+    "p95_response_ms": 16236.9,
     "min_response_ms": 595.6,
     "max_response_ms": 35802.6,
-    "samples": 22245
+    "samples": 22174
   },
   "validation": {
-    "total_validated": 22245,
+    "total_validated": 22174,
     "success_rate_pct": 100.0
   },
   "geographic": {
@@ -44,63 +44,63 @@
     "top_countries": [
       {
         "code": "US",
-        "count": 840
+        "count": 865
       },
       {
         "code": "IR",
-        "count": 655
+        "count": 665
       },
       {
         "code": "NL",
-        "count": 353
+        "count": 346
       },
       {
         "code": "GB",
-        "count": 318
+        "count": 328
       },
       {
         "code": "RU",
-        "count": 175
+        "count": 172
       },
       {
         "code": "IM",
-        "count": 134
+        "count": 132
       },
       {
         "code": "SC",
-        "count": 126
-      },
-      {
-        "code": "RO",
-        "count": 113
+        "count": 122
       },
       {
         "code": "DE",
-        "count": 109
+        "count": 120
+      },
+      {
+        "code": "RO",
+        "count": 111
       },
       {
         "code": "CA",
-        "count": 98
+        "count": 97
       },
       {
         "code": "HK",
-        "count": 86
+        "count": 81
       },
       {
         "code": "SG",
-        "count": 76
+        "count": 77
+      },
+      {
+        "code": "JP",
+        "count": 73
       },
       {
         "code": "KZ",
-        "count": 70
+        "count": 67
       },
       {
         "code": "KR",
-        "count": 44
-      },
-      {
-        "code": "ZA",
-        "count": 43
+        "count": 42
       }
     ],
     "by_continent": {}
@@ -110,7 +110,7 @@
     "top_sources": [
       {
         "name": "user",
-        "count": 22245
+        "count": 22174
       }
     ]
   },
@@ -132,55 +132,59 @@
         "range": "500ms-1s",
         "min": 500,
         "max": 1000,
-        "count": 6
+        "count": 9
       },
       {
         "range": "1-2s",
         "min": 1000,
         "max": 2000,
-        "count": 43
+        "count": 41
       },
       {
         "range": "2-5s",
         "min": 2000,
         "max": 5000,
-        "count": 921
+        "count": 919
       },
       {
         "range": ">5s",
         "min": 5000,
         "max": null,
-        "count": 21275
+        "count": 21205
       }
     ],
     "by_port": [
       {
         "port": 80,
-        "count": 14804
+        "count": 14640
       },
       {
         "port": 8080,
-        "count": 158
+        "count": 157
       },
       {
         "port": 1080,
-        "count": 150
+        "count": 152
       },
       {
         "port": 3128,
-        "count": 141
+        "count": 143
       },
       {
         "port": 4145,
-        "count": 95
+        "count": 113
       },
       {
         "port": 8081,
-        "count": 60
+        "count": 61
       },
       {
         "port": 9080,
         "count": 59
+      },
+      {
+        "port": 999,
+        "count": 44
       },
       {
         "port": 9098,
@@ -195,28 +199,24 @@
         "count": 42
       },
       {
-        "port": 999,
-        "count": 42
+        "port": 8443,
+        "count": 39
       },
       {
         "port": 5060,
-        "count": 38
-      },
-      {
-        "port": 8443,
-        "count": 38
+        "count": 37
       },
       {
         "port": 20002,
+        "count": 34
+      },
+      {
+        "port": 10000,
         "count": 33
       },
       {
-        "port": 8888,
-        "count": 31
-      },
-      {
         "port": 0,
-        "count": 6467,
+        "count": 6533,
         "label": "Other"
       }
     ],
@@ -226,121 +226,127 @@
         "source": "user",
         "protocol": "http",
         "country": "Unknown",
-        "count": 13355
+        "count": 13205
       },
       {
         "source": "user",
         "protocol": "socks5",
         "country": "Unknown",
-        "count": 4821
+        "count": 4858
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "US",
-        "count": 829
+        "count": 819
       },
       {
         "source": "user",
         "protocol": "socks5",
         "country": "IR",
-        "count": 655
+        "count": 665
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "NL",
-        "count": 353
+        "count": 346
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "GB",
-        "count": 314
+        "count": 323
       },
       {
         "source": "user",
         "protocol": "socks4",
         "country": "Unknown",
-        "count": 241
+        "count": 235
       },
       {
         "source": "user",
         "protocol": "https",
         "country": "Unknown",
-        "count": 209
+        "count": 193
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "RU",
-        "count": 174
+        "count": 171
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "IM",
-        "count": 134
+        "count": 132
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "SC",
-        "count": 126
-      },
-      {
-        "source": "user",
-        "protocol": "http",
-        "country": "RO",
-        "count": 113
+        "count": 122
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "DE",
-        "count": 107
+        "count": 117
+      },
+      {
+        "source": "user",
+        "protocol": "http",
+        "country": "RO",
+        "count": 111
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "CA",
-        "count": 98
+        "count": 97
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "HK",
-        "count": 83
+        "count": 78
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "SG",
-        "count": 75
+        "count": 76
       },
       {
         "source": "user",
         "protocol": "http",
-        "country": "KZ",
+        "country": "JP",
         "count": 70
       },
       {
         "source": "user",
         "protocol": "http",
-        "country": "ZA",
-        "count": 43
+        "country": "KZ",
+        "count": 67
       },
       {
         "source": "user",
         "protocol": "http",
-        "country": "KR",
+        "country": "ZA",
         "count": 42
       },
       {
         "source": "user",
         "protocol": "http",
+        "country": "KR",
+        "count": 40
+      },
+      {
+        "source": "user",
+        "protocol": "http",
         "country": "EE",
-        "count": 37
+        "count": 36
       },
       {
         "source": "user",
@@ -350,15 +356,15 @@
       },
       {
         "source": "user",
-        "protocol": "http",
-        "country": "JP",
-        "count": 35
+        "protocol": "socks4",
+        "country": "US",
+        "count": 32
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "AE",
-        "count": 31
+        "count": 30
       },
       {
         "source": "user",
@@ -370,6 +376,12 @@
         "source": "user",
         "protocol": "http",
         "country": "TH",
+        "count": 25
+      },
+      {
+        "source": "user",
+        "protocol": "http",
+        "country": "LT",
         "count": 23
       },
       {
@@ -393,12 +405,6 @@
       {
         "source": "user",
         "protocol": "http",
-        "country": "LT",
-        "count": 20
-      },
-      {
-        "source": "user",
-        "protocol": "http",
         "country": "AU",
         "count": 19
       },
@@ -406,12 +412,6 @@
         "source": "user",
         "protocol": "http",
         "country": "CN",
-        "count": 18
-      },
-      {
-        "source": "user",
-        "protocol": "http",
-        "country": "ID",
         "count": 17
       },
       {
@@ -423,37 +423,37 @@
       {
         "source": "user",
         "protocol": "http",
-        "country": "PH",
-        "count": 10
+        "country": "ID",
+        "count": 16
       },
       {
         "source": "user",
         "protocol": "socks5",
         "country": "US",
-        "count": 7
+        "count": 13
+      },
+      {
+        "source": "user",
+        "protocol": "http",
+        "country": "PH",
+        "count": 9
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "SA",
-        "count": 6
+        "count": 7
       },
       {
         "source": "user",
         "protocol": "socks4",
-        "country": "US",
+        "country": "GB",
         "count": 4
       },
       {
         "source": "user",
         "protocol": "http",
         "country": "FI",
-        "count": 3
-      },
-      {
-        "source": "user",
-        "protocol": "socks4",
-        "country": "GB",
         "count": 3
       },
       {
@@ -488,6 +488,12 @@
       },
       {
         "source": "user",
+        "protocol": "socks4",
+        "country": "JP",
+        "count": 2
+      },
+      {
+        "source": "user",
         "protocol": "socks5",
         "country": "HK",
         "count": 2
@@ -508,6 +514,12 @@
         "source": "user",
         "protocol": "http",
         "country": "CO",
+        "count": 1
+      },
+      {
+        "source": "user",
+        "protocol": "https",
+        "country": "US",
         "count": 1
       },
       {
@@ -537,12 +549,6 @@
       {
         "source": "user",
         "protocol": "socks4",
-        "country": "JP",
-        "count": 1
-      },
-      {
-        "source": "user",
-        "protocol": "socks4",
         "country": "PH",
         "count": 1
       },
@@ -550,6 +556,12 @@
         "source": "user",
         "protocol": "socks5",
         "country": "JP",
+        "count": 1
+      },
+      {
+        "source": "user",
+        "protocol": "socks5",
+        "country": "DE",
         "count": 1
       },
       {
